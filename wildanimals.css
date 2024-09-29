@@ -59,9 +59,18 @@ span {
 }
 table{
     border:solid 2px;
-    display: flex;
-    justify-content: center;
-    margin: 60px 250px;
     border-radius: 10px;
-
+    background-color: rgba(131, 116, 199, 0.349);
 }
+
+ .se-ta{
+  display: flex;
+  justify-content: center;
+ 
+  
+} 
+@media (max-width: 350x) {
+  .td{max-width: 350px; } 
+}
+
+
