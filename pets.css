@@ -70,3 +70,9 @@ tr th{
   background-color: rgb(147, 147, 241);
   border-radius: 60px;
 }
+@media (max-width: 1250px) {
+  td,tr {
+    border: solid 1px ;
+    border-radius: 5px;
+    min-width: 20px;
+}
