@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Spicy Rice", serif;
+  margin: 0;
+}
+body{
+    background-color: beige;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgba(101, 165, 42, 0.226);
+}
+.section-1 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.box {
+  width: 150px;
+  height: 200px;
+  background-color: rgba(245, 204, 165, 0.473);
+  border-radius: 10px;
+}
+.box p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+     border:solid 1px orange ;
+   
+}
+.box img{
+    position:relative ;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+.box a{
+    text-align: center;
+    display: block;
+}
+td,tr {
+  border: solid 1px ;
+  border-radius: 5px;
+  min-width: 200px;
+} 
+table{
+  border: solid 2px rgb(136, 90, 4);
+  border-radius: 20px;
+  padding: 2px;
+  background-color: rgba(224, 24, 24, 0.205);
+ 
+}
+.section-2{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; 
+}
+tr th{
+  background-color: rgb(147, 147, 241);
+  border-radius: 60px;
+}
